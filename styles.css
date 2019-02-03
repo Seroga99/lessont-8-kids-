@@ -9,6 +9,7 @@
     background-size: cover;
     background-position: center;
     background-image: url('./image/bg.jpg');
+    position: relative;
 }
 .title {
     position: absolute;
@@ -58,4 +59,32 @@
         height: 1px;
         background-color: #fff;
         margin-bottom: 20px;
+    }
+
+
+
+    .cards__section {
+        width: 100vw;
+        height: 100vh;
+        background-color: #eee;
+    }
+    .cards__container {
+        width: 1300px;
+        height: 1000px;
+        margin: auto;
+        padding-top: 120px;
+    }
+    .card {
+        width: 550px;
+        display: inline-block;
+        text-align: center;
+    }
+    .card2 {
+        margin-left: 150px;
+    }
+    .cardimg {
+        margin-bottom: 45px;
+    }
+    .pc1 {
+        color: gray
     }
